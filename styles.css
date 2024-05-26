@@ -1,0 +1,21 @@
+/* Custom CSS for Quote Image Generator */
+.tablink.active {
+    background-color: #3b82f6; /* Tailwind's blue-500 */
+}
+
+.tabcontent {
+    display: none;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+.slider-value-box {
+    margin-left: 10px;
+    color: #222222;
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 2px 5px;
+    border-radius: 0.25rem; /* Tailwind's rounded-md */
+}
